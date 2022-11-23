@@ -1,0 +1,206 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#zaloguj {
+    background-color: #975b83;
+    margin-top:  2rem;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    text-transform: uppercase;
+    min-height: 70px;
+    white-space: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 21px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid #975b83 !important;
+    transition: all .2s ease;
+}
+
+#zaloguj:hover {
+    
+    background-color: #7f4d6e;
+    border-color: #774867;
+}*:focus {
+    outline: 0;
+  }
+select {
+    width: 100% !important;
+    
+}
+span {
+    color: red;
+}
+.log_form {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background: #dee6eb;
+    border: none;
+    height: 40px;
+    color: #303b4a;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    box-shadow: none;
+    width: calc(100% - 3rem);
+    margin-bottom: 1rem;
+    float: right;
+    z-index: 999;
+}
+
+
+.log_register_form {
+    display: inline-block;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+}
+
+.log_form:focus {
+    outline: none;
+    border: none;
+}
+
+.lab_form {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+}
+h2 {
+    color: black;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+form, #switch {
+    width: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    color: #975b83;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 52px;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+p{
+    color: #484848;
+    font-weight: 400;
+    font-size: 12.5px;
+    margin-top: 2em;
+    text-align: center;
+    line-height: 1.2em;
+    box-sizing: border-box;
+}
+
+.iconbc {
+    width: 3rem;
+    background: #dee6eb;
+    border: none;
+    height: 42px;
+    color: #303b4a;
+    position: relative;
+}
+img {
+    width: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.oceny {
+    margin-top: 10vh;
+    width: 19.8vw;
+    margin: 0;
+    background-color: #975b83;
+    min-height: 30vh;
+    float: right;
+    outline: 3px solid black;
+    text-align: center;
+    padding-top: 3vh;
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 5vh;
+    padding-bottom: 1vh;
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+}
+li {
+    text-align: left;
+    transition: all .1s ease;
+}
+.visible {
+    display: block !important;
+}
+.hidden {
+    display: none !important;
+}
+#status {
+    height: 4vh;
+    background-color: rgb(122, 221, 122);
+    color: black;
+    width: calc(100vw - 4vh);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2vh;
+    opacity: 0.8;
+}
+h4 a {
+    text-decoration: none;
+    color: green;
+}
+.nauczyciel_form {
+    background: #dee6eb;
+    border: none;
+    height: 40px;
+    color: #303b4a;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    box-shadow: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    float: right;
+    z-index: 999;
+}
+
+h3 {
+    text-align: center;
+}
+.nauczyciel_form:focus {
+    outline: none;
+    border: none;
+}
+
+li:hover {
+    color: rgb(184, 184, 184);
+
+}
